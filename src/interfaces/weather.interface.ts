@@ -1,11 +1,5 @@
 interface ILocalNames {
-    sv?: string;
-    zh?: string;
-    en?: string;
-    ru?: string;
-    vi?: string;
-    fr?: string;
-    ko?: string;
+  [key: string]: string;
 }
 export interface IPlace {
     name?: string,
