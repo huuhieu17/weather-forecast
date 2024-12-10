@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { IAirPollution, IWeather } from '../interfaces/weather.interface'
 import { calculateWeather, getAirPolluteData, getUVindex } from '../services';
 import { FiSunrise, FiSunset } from 'react-icons/fi';
